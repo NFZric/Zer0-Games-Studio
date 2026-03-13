@@ -2,23 +2,46 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Minha Loja de Jogos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Zer0</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Meus Jogos</h1>
-    </header>
-    
-    <main id="game-container">
-        <div class="game-card">
-            <img src="capa-do-jogo.jpg" alt="Jogo 1">
-            <h2>Nome do Jogo</h2>
-            <p>Uma breve descrição do seu game incrível.</p>
-            <button onclick="comprar()">Acessar</button>
-        </div>
-    </main>
 
-    <script src="script.js"></script>
+<header>
+    <img src="imagens/logo-zerostudio.png" alt="Logo Studio Vira-Lata Games" class="logo">
+    <h1>Studio Zer0</h1>
+    <p>Studio indie de jogos<p>
+</header>
+
+<main>
+    <h2>Confira Nossos Jogos</h2>
+
+    <div class="game-container"> 
+
+        <div class="game-card"> 
+            <img src="imagens/dinoCoin.png" alt="Capa do Jogo 1" class="game-image">
+            <div class="game-details">
+                <h3>Dino Coin - Versão Windows</h3>
+                <p>Dino Coin, um jogo simples onde o objetivo é pegar moedas e derrotar bosses, tendo vários itens para customizar o personagem e melhorar a gameplay, esse jogo ainda esta em fase de desenvolvimento qualquer bug ou erro noe avise aqui = studio.zero.games.ofc@gmail.com.</p>
+                <a href="https://www.mediafire.com/file/6i5l366vm9ii2kg/DinoCoin.zip/file" class="btn-comprar" target="_blank">Versão de pc/windows(mediafire)</a>
+                <a href="https://www.mediafire.com/file/dyc8cvpbzbfcjnh/DinoCoin.apk/file" class="btn-comprar" target="_blank">Versão de celular/Android(mediafire)</a>
+            </div>
+        </div> <div class="game-card">
+            <img src="imagens/sem-game.png" alt="Capa do Jogo 2" class="game-image">
+            <div class="game-details">
+                <h3>Jogo 2</h3>
+                <p>Em breve uma nova aventura do Studio Zer0 disponível para vocês!</p>
+                <a href="#" class="btn-comprar">Ver jogo</a>
+            </div>
+        </div> </div> </main>
+
+<footer>
+    <p>&copy; 2026 Studio Zer0. Todos os direitos reservados.</p>
+</footer>
+
 </body>
 </html>
